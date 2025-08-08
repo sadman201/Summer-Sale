@@ -240,17 +240,18 @@
                 <input
                   type="text"
                   placeholder="Coupon Code"
-                  class="p-[5px] rounded-l-[10px] border-[1px]"
+                  class="p-[5px] rounded-l-[10px] border-[1px]" id="inputCoupon"
                 />
 
                 <div
                   class="lg:-ml-3  border-[1px] border-[#E527B2] rounded-r-[10px]"
                 >
-                  <button
+                  <button id="applyBtn"
                     class="bg-[#E527B2] p-[5px] font-semibold text-white rounded-r-[10px]"
                   >
                     Apply
                   </button>
+                  
                 </div>
               </div>
             </div>
@@ -269,14 +270,14 @@
 
               <!-- <hr class="text-gray-300 mt-[10px] " /> -->
               <div class="p-[10px] font-medium space-y-3">
-                <p>Total price: <span id="Total">00</span>tk</p>
-                <p>Discount : <span id="Discount">00 </span>tk</p>
-                <p>Total: <span id="DiscountTotal"> 00 </span>tk</p>
+                <p>Total price: <span id="total">00</span>tk</p>
+                <p>Discount : <span id="discount">00 </span>tk</p>
+                <p>Total: <span id="discountTotal"> 00 </span>tk</p>
               </div>
               <hr class="text-gray-300" />
             </div>
             <button
-              class="bg-[#E527B2] pt-[5px] p-[10px] font-semibold text-white rounded-[10px] w-full"
+                id="purchaseBtn"          class="bg-[#E527B2] pt-[5px] p-[10px] font-semibold text-white rounded-[10px] w-full"
             >
               Make Purchase
             </button>
